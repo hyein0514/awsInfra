@@ -11,7 +11,7 @@ terraform {
     key            = "training/lab06/terraform.tfstate"
     region         = "ap-southeast-2"
     encrypt        = true
-    dynamodb_table = "terraform-lock"
+    
   }
 }
 
